@@ -1,0 +1,27 @@
+.persons_center{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.persons_flex{
+    display: flex;
+    gap: 16px;
+    padding: 24px 0;
+    flex-wrap: wrap;
+}
+
+.person_pagination{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-right: 0;
+    justify-content: end;
+}
+
+.persons_flex_item{
+    padding: 8px;
+    min-width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
